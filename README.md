@@ -41,6 +41,6 @@ https://www.kaggle.com/code/hugoalvcal/pfm-clasifsentdistilbert/data
 
 The multiclass text classifier achieved an accuracy of 92.3% on the validation set.
 
-Confusion matrices:
+Confusion matrix:
 
 ![image](https://user-images.githubusercontent.com/107633593/211154236-fccb8752-84b1-4681-8f98-ee7ce752eda2.png)
