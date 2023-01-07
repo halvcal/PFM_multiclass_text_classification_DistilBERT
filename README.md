@@ -17,4 +17,30 @@ of pretrained BERT model.
 
 The state-of-the-art model DistilBERT was used for this purpose.
 
-The muticlass clasiffier was deployed using <pytorch> 
+The muticlass text clasiffier was deployed using a pre-trained model from Hugging Face which in turn support the integration of Pytorch.
+
+The data used for training are property of Kaggle and, therefore, have not been uploaded to the public repository.
+
+## Data
+
+The size of the dataset is 20,000 events with documents and its emotions.
+
+For training and evaluation, the data were partitioned according to the following proportions:
+
+80% Training
+10% Validation or hold-out
+10% Testing
+
+## Models
+
+The weights of the trained models are publicly available and can be downloaded at the link below:
+
+https://www.kaggle.com/code/hugoalvcal/pfm-clasifsentdistilbert/data
+
+## Results
+
+The multiclass text classifier achieved an accuracy of 92.3% on the validation set.
+
+Confusion matrices:
+
+![image](https://user-images.githubusercontent.com/107633593/211154236-fccb8752-84b1-4681-8f98-ee7ce752eda2.png)
