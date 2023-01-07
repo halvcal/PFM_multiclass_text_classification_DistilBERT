@@ -1,4 +1,4 @@
-# PFM_multiclass_text_classification_DistilBERT
+# Multiclass classification of texts with DistilBERT
 
 Master in machine learning, deep learning and artificial intelligence with UCAM and Big data international campus.
 
@@ -12,3 +12,9 @@ https://drive.google.com/drive/folders/1lNr4WivIz8wXLcg4oBkGVdOzmf0Twe9U?usp=sha
 
 ## Objective
 
+The objective of this master's thesis is to check if a multiclass classification of sentences can be done reasonably accurately using a type
+of pretrained BERT model.
+
+The state-of-the-art model DistilBERT was used for this purpose.
+
+The muticlass clasiffier was deployed using <pytorch> 
